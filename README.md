@@ -4,7 +4,9 @@ Test assessment showcasing a Next.js application with mock data and Tailwind CSS
 
 ## Screencast
 
-You can find deployed version at:
+You can find deployed version at: https://greenfield-next.vercel.app/
+
+https://github.com/LeshLev/greenfield-next/assets/156815545/250b8980-5f76-4640-922b-086975942d9f
 
 ## Get Started
 
