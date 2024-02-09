@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary-light: 253, 250, 247;
+  }
+
+  body * {
+    @apply transition-colors duration-100;
+  }
+}
+
+@layer components {
+  .content-container {
+    @apply mx-auto max-w-7xl px-4;
+  }
+
+  .grid-wrapper {
+    @apply grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .content-wrapper {
+    @apply mt-4 px-4;
+  }
+}
