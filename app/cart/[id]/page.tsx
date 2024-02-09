@@ -32,7 +32,7 @@ const CartPage = async ({ params: { id } }: CartPageProps) => {
           <ProductsInfo products={cartInfo.cart.products} />
         </div>
       ) : (
-        <ContentNotFound message={`There is no content for card #${id}`} />
+        <ContentNotFound message={`There is no content for cart #${id}`} />
       )}
     </section>
   );

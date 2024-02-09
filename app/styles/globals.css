@@ -18,7 +18,7 @@
   }
 
   .grid-wrapper {
-    @apply grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3;
+    @apply grid grid-flow-row grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3;
   }
 
   .content-wrapper {

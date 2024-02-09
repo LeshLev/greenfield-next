@@ -19,7 +19,7 @@ const variants = {
 };
 
 /**
- * Returns the article card component
+ * Returns the article cart component
  * @param CartsListProps
  * @returns JSX.Element
  */

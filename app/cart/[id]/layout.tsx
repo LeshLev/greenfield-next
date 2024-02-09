@@ -39,7 +39,7 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ params, children }) => (
   <>
-    <Header title={`Card info #${params.id}`} />
+    <Header title={`Cart info #${params.id}`} />
     <div className="content-container">
       <div className="mt-2 w-[112px] rounded-xl bg-white p-2 shadow-md">
         <BackLink url="/" />
